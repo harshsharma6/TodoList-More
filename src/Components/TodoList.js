@@ -46,7 +46,7 @@ export const TodoList = () => {
                         return (
                             <div className="input-group mb-3">
                                 <div className='form-control'>{listItem}</div>
-                                <button className="input-group-text" onClick={()=>deleteItem(ind)}><i className="zmdi zmdi-minus"  title="Remove"></i></button>
+                                <button className="input-group-text" onClick={()=>deleteItem(ind)}><i className="zmdi zmdi-minus" title="Remove"></i></button>
                             </div> 
                         )
                     })}
@@ -55,6 +55,7 @@ export const TodoList = () => {
         </>
     )
 }
+//code for edit to replace in the return value of map
 {/* <div className="input-group mb-3">
                                 <div className='form-control'>{listItem}</div>
                                 {click ? <div className="input-group mb-3"><input type="text" className='form-control' placeholder='Type Here' value={inputData} onChange={(e) => setInputData(e.target.value)}></input>
