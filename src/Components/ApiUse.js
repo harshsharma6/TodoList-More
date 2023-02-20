@@ -16,7 +16,7 @@ export const ApiUse = () => {
     }, [])
     return (
         <>
-            <div className='todo'>
+            <div className='apiuse'>
                 <h1 className='txt-white'>Api Fetching</h1>
                 <div className='row'>
 
