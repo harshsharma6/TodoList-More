@@ -28,6 +28,45 @@
   color: #61dafb;
 }
 
+.todo {
+  position: absolute;
+  width: 90%;
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.txt-white{
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+}
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
